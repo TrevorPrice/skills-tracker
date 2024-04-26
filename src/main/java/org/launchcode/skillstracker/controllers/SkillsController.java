@@ -44,29 +44,33 @@ public class SkillsController {
                     "<body>" +
                         "<form action='skills' method='post'>" +
                             "<label>Name:" +
-                                "<input type='text' name='name'>" + "<br>" +
+                                "<input type='text' name='name'>" +
+                                "<br>" +
                             "</label>" +
                             "<label>My Favorite Language:" +
                                 "<select name='code1'>" +
-                                "<option value='1'>Java</option>" +
-                                "<option value='2'>JavaScript</option>" +
-                                "<option value='3'>Python</option>" +
+                                    "<option value='1'>Java</option>" +
+                                    "<option value='2'>JavaScript</option>" +
+                                    "<option value='3'>Python</option>" +
                                 "</select>" +
-                            "</label>" + "<br>" +
+                            "</label>" +
+                            "<br>" +
                                 "<label>My Second Favorite Language:" +
                                 "<select name='code2'>" +
-                                "<option value='1'>Java</option>" +
-                                "<option value='2'>JavaScript</option>" +
-                                "<option value='3'>Python</option>" +
+                                    "<option value='1'>Java</option>" +
+                                    "<option value='2'>JavaScript</option>" +
+                                    "<option value='3'>Python</option>" +
                                 "</select>" +
-                            "</label>" + "<br>" +
+                            "</label>" +
+                            "<br>" +
                                 "<label>My Third Favorite Language:" +
                                 "<select name='code3'>" +
-                                "<option value='1'>Java</option>" +
-                                "<option value='2'>JavaScript</option>" +
-                                "<option value='3'>Python</option>" +
+                                    "<option value='1'>Java</option>" +
+                                    "<option value='2'>JavaScript</option>" +
+                                    "<option value='3'>Python</option>" +
                                 "</select>" +
-                            "</label>" + "<br>" +
+                            "</label>" +
+                            "<br>" +
                             "<input type='submit' value='Submit'>" +
                         "</form>" +
                     "</body>" +
